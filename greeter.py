@@ -2,4 +2,4 @@
 
 import sys
 
-print 'hello {0}'.format(sys.argv[1])
+print('hello {0}'.format(sys.argv[1]))
