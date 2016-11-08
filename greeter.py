@@ -3,4 +3,5 @@ from __future__ import print_function
 
 import sys
 
-print('hello {0}'.format(sys.argv[1]))
+for name in sys.argv[1:]:
+  print('hello {0}'.format(name.title()))
